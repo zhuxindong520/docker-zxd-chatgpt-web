@@ -1,9 +1,6 @@
 from zhuxindong/ninja:latest
 
-ENV \
-    PORT=8080 \
-    HOST=0.0.0.0
- 
-EXPOSE 8080
+
+EXPOSE 7999
  
 CMD serve run
